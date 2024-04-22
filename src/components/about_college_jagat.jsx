@@ -37,7 +37,7 @@ const about_college_jagat = () => {
               })}
         </div>
         <div className="cj-right">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/2bd6sFfIt4I?si=TNq9c9DHB892hvBp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+        <video className="cj-video" src={'../assets/intro.mp4'} autoPlay muted loop   ></video>
         </div>
     </div>
     </div>
